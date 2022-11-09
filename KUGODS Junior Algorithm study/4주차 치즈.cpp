@@ -16,7 +16,6 @@ void check(int a, int b){
         map[a][b] = 2;
 }
 
-
 void dfs(int a, int b){
     map[a][b] = 3;
     for(int i=0; i<4;i++){

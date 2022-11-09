@@ -47,7 +47,6 @@ void dfs_st(int start)
                
         }
     }
-    
 }
 
 void dfs_re(int x)
