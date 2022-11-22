@@ -17,8 +17,12 @@ int main(){
         cin>>tmp;
         cost.push_back(tmp);
     }
+    
+    
+    
     long long ans = 0;
     long long min_cost = cost[0];
+    
     for(int i=0; i<N-1; i++){
         if(min_cost > cost[i])
             min_cost = cost[i];
